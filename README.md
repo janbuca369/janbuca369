@@ -18,29 +18,13 @@
 - 🔥 **Life Hack**: Keep learning new tech and share what you've learned! 
 - ⚡ **Hobbies**: I love working out at the gym 🏋️‍♂️, creating content 📷🎥.  
 - 🤝 I'm looking about supporting for help & teaching to **Chederin**.
+- 😄 Fun fact: I waste most of my time by being a **content creator**.
+- I spend a lot of time learning new technologies, working out 🏃 on Gym 🏋️‍♂️.  
 
 🔗 **Personal Website**: [Portfolio](https://janbuca.github.io/janbuca-369/)
 
 > _"First rule of programming: If it works, then don't touch it." - እራስህ ለራስህ_
 
----
-
-## 📫 How to reach me
-
-- **Instagram**: [@firew_kifle](https://www.instagram.com/firew_kifle/)
-- **Email**: [janbuca369@gmail.com](mailto:janbuca369@gmail.com)
-- **Telegram**: [telegram](https://t.me/Janbuca)
-
----
-
-### Fun Fact
-
-- I spend a lot of time learning new technologies, working out 🏃 on Gym 🏋️‍♂️. 😄 Fun fact: I waste most of my time by being a **content creator**. 
-
-### Support Me
-
-- **Goal**: Support to help people & teaching educational programs, especially for children.
-  
 ---
 
 "Let's connect, learn, and grow together!" 🚀
