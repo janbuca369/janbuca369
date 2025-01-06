@@ -1,0 +1,310 @@
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--primary);
+  height: 500px;
+  position: relative;
+  padding-top: 80px !important;
+}
+
+.myDescription {
+  font-size: xx-large;
+  
+}
+
+.myName {
+  font-size: 30px;
+  padding-bottom: 5px;
+  /* padding-right: 700px; */
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+  display: inline-block;
+  text-align: right;
+  font-family: "Times New Roman", Times, serif; 
+  font-weight: bold;
+}
+
+.myImage {
+  display: flex;
+  max-width: 100%;
+  height: 500px;
+  padding-left: 300px;
+}
+
+.imageContainer {
+  position: absolute;
+  display: inline-block;
+  /* height: 800px; */
+  width: 700px;
+  overflow: hidden;
+  top: 30px;
+}
+
+.imageContainer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--hero-main);
+  background: linear-gradient(
+    0deg,
+    var(--hero-main) 0%,
+    var(--hero-main) 1%,
+    var(--hero-fade) 100%
+  );
+}
+
+.textContainer {
+  z-index: 1;
+  display: block;
+  flex-direction: column;
+  align-items: right;
+  position: absolute;
+  top: 290px;
+}
+
+.developer,
+.designer {
+  display: inline-block;
+  transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background: rgba(255, 255, 255, 0.2);
+  padding: 10px 20px;
+  border-radius: 10px 50px;
+  width: 500px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif; 
+  /* display: flex; */
+}
+
+.developerText,
+.designerText {
+  display: inline;
+  font-family: "Times New Roman", Times, serif; 
+}
+
+.designer {
+  color: rgb(242, 134, 156);
+}
+
+.developer {
+  color: rgb(0, 224, 224);
+}
+
+.aboutNav {
+  position: absolute;
+  bottom: 0px;
+}
+
+@media screen and (max-width: 850px){
+  .container {
+    height: 800px;
+  }
+
+  .textContainer {
+    top: 220px;
+  }
+
+  .myName {
+    font-size: 80px;
+  }
+
+  .myDescription {
+    font-size: x-large;
+  }
+
+  .imageContainer {
+    height: 700px;
+    width: 600px;
+  }
+
+  .designer, .developer {
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 630px){
+  .container {
+    height: 720px;
+  }
+
+  .textContainer {
+    top: 250px;
+  }
+
+  .myName {
+    font-size: 60px;
+  }
+
+  .myDescription {
+    font-size: large;
+  }
+
+  .imageContainer {
+    height: 600px;
+    width: 500px;
+    top: 100px;
+  }
+
+  .designer, .developer {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 500px){
+  .container {
+    height: 620px;
+  }
+
+  .textContainer {
+    top: 210px;
+  }
+
+  .myName {
+    font-size: 50px;
+  }
+
+  .imageContainer {
+    height: 500px;
+    /* width: 400px; */
+    /* width: 100%; */
+  }
+}
+
+@media screen and (max-width: 410px){
+  .container {
+    height: 600px;
+  }
+  .textContainer {
+    top: 160px;
+  }
+
+  .myName {
+    font-size: 40px;
+  }
+
+  .myDescription {
+    font-size: medium;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer {
+    height: 400px;
+    width: 300px;
+    top: 130px;
+  }
+}
+
+
+@media (max-width: 575.98px) {
+
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+    padding: 1rem;
+  }
+
+  .textContainer {
+    text-align: center; /* Center-align text for small screens */
+    margin-bottom: 1rem;
+  }
+
+  .myName {
+    font-size: 2rem;
+  }
+
+  .myDescription {
+    font-size: 1.2rem;
+  }
+
+  .myImage {
+    width: 100%; /* Reduce image size to fit smaller screens */
+  }
+}
+
+/* Medium devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .container {
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center;
+  }
+
+  .myName {
+    font-size: 2.5rem;
+  }
+
+  .myDescription {
+    font-size: 1.3rem;
+  }
+
+  .myImage {
+    width: 100%; /* Adjust image size for medium screens */
+  }
+}
+
+
+
+/* Large devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .container {
+    flex-direction: row; /* Keep row layout for larger devices */
+    padding: 1.5rem;
+  }
+
+  .myName {
+    font-size: 2.8rem;
+  }
+
+  .myDescription {
+    font-size: 1.4rem;
+  }
+
+  .myImage {
+    width: 100%; /* Adjust image size for tablets */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,291 @@
+.contactSection {
+    margin-bottom: 5px;
+    width: 60%;
+    position: relative;
+}
+
+.contactMargin {
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.contactSectionName {
+    margin: 0px 0px 30px 0px;
+    text-align: center;
+}
+
+.contactSectionName h3{
+    font-family: "Times New Roman", Times, serif; 
+    font-weight: bold;    
+    color: #f1e7e7; 
+}
+
+.contactContainer {
+    display: flex;
+    height: 250px;
+    border-radius: 50px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.firstContactInfo, .lastContactInfo {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 50%;
+}
+
+.firstContactInfo {
+    justify-content: space-between;
+    background: var(--about-background);
+}
+
+.contactInput {
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: large;
+    border: 2px solid var(--primary-inverted);
+    border-radius:  50px 100px;
+    background: transparent;
+    color: var(--primary-inverted);
+    outline: none;
+     font-family: "Times New Roman", Times, serif; 
+    /* font-size: 2.5rem; Adjust size as needed */
+    /* font-weight: bold; */
+    
+    
+}
+
+.nameContainer, .emailContainer, .subjectContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.senderNameLabel, .senderEmailLabel, .messageSubjectLabel {
+    padding-bottom: 105px;
+     font-family: "Times New Roman", Times, serif; 
+    /* font-size: 2.5rem; Adjust size as needed */
+    font-weight: bold;
+    
+    color: #f1e7e7; 
+}
+
+.lastContactInfo {
+    justify-content: space-between;
+    /* background: var(--primary-inverted); */
+    position: relative;
+    align-items: center;
+}
+
+.contactMessage {
+    height: 80%;
+    width: 100%;
+    font-size: medium;
+    padding: 10px;
+    border-radius: 10px 70px;
+    border: 1px solid var(--primary);
+    /* border-radius: 5px; */
+    background: transparent;
+    color: var(--primary-black);
+    outline: none;
+    resize: none;
+}
+
+.contactButton {
+    background: rgba(11, 9, 9, 0.2);
+    border-radius: 500px 50px;
+    border: 1px solid var(--primary);
+    padding: 10px 50px;
+    /* border-radius: 5px; */
+    font-weight: bold;
+    cursor: pointer;
+    color: var(--primary-inverted);
+    width: 100%;
+}
+
+.contactButton:active {
+    background: transparent;
+    color: var(--primary);
+}
+
+/* Loading section (a quick fix so not recommended to write code like this) */
+
+.message {
+    width: fit-content;
+    margin-top: 10px;
+    font-size: 14px;
+    border-radius: 500px 50px;
+    color: var(--primary-black);
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.messageContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px;
+}
+
+/* Contact link section */
+
+.contactLinksContainer {
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.contactLinks {
+    display: flex;
+    justify-content: space-around;
+    width: 900px;
+}
+
+.contactLink{
+    list-style: none;
+    font-size: xx-large;
+}
+
+.contactLinksContainerActive {
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 1340px) {
+    .contactSection {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1144px) {
+    .contactSection {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 910px) {
+    .contactContainer {
+        flex-direction: column;
+        height: unset;
+    }
+
+    .firstContactInfo, .lastContactInfo {
+        width: 100%;
+    }
+
+    .contactMessage {
+        height: 200px;
+        margin-bottom: 10px;
+    }
+
+    .contactInput {
+        margin-bottom: 20px;
+    }
+    
+    .firstContactInfo div:last-child .contactInput {
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .contactLinks {
+        /* grid */
+        display: flex; 
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 20px;
+        justify-items: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .firstContactInfo, .lastContactInfo {
+        padding: 30px 30px 50px 30px;
+    }
+}
+
+@media screen and (max-width: 392px) {
+    .failedMessageContainer {
+        bottom: 10px;
+    }
+} 
+
+@media screen and (max-width: 370px) {
+    .contactLinks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 20px;
+        justify-items: center;
+        padding: 20px;
+    }
+}
+
+
+/* --------- */
+/* Footer */
+/* --------- */
+.footer {
+  background-color: rgb(10, 4, 22);
+  bottom: 0 !important;
+  padding-top: 10px !important;
+  padding-bottom: 8px !important ;
+  display:block;
+}
+.footer_copywright {
+    z-index: 1;
+  padding-right: 300px ;
+  /* display:block; */
+  text-align: center !important;
+  font-size: 15px;
+   font-family: "Times New Roman", Times, serif; 
+    /* font-size: 2.5rem; Adjust size as needed */
+    font-weight: bold;
+    
+    color: #f1e7e7; 
+}
+
+.footer_body {
+ z-index: 1;
+ padding-left: 600px ;
+text-align: center !important;
+}
+
+@media (max-width: 767px) {
+  .footer_copywright {
+    text-align: center !important;
+  }
+
+  .footer_body {
+    text-align: center !important;
+  }
+}
+
+.footer h5 {
+  font-size: 1em;
+  color: white !important;
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+}
+.footer_icons {
+  margin-top: 0.5em !important;
+  margin-bottom: 0.5em !important;
+  padding: 0 !important;
+}
+
+.blockquote_footer {
+  color: #a588c0 !important;
+}
+
+.social_icons {
+  display: inline-block !important;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.icon_colour {
+  color: #700c86 !important;
+}
+
+
+
+
+

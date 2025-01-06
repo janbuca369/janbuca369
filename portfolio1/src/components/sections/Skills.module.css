@@ -1,0 +1,201 @@
+.skillContainer {
+  width: 70%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.sectionTitle {
+  margin-bottom: 20px;
+  margin-top: 100px;
+  font-family: "Times New Roman", Times, serif; 
+  font-weight: bold;
+}
+
+.skillSelector {
+  display: flex;
+  border: 1px solid var(--about-border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 50px;
+  width: fit-content;
+  box-shadow: 4px 4px 2px 2px;
+  
+}
+
+.frontSelector {
+  border-right: 2px solid var(--about-border);
+}
+
+.frontSelector,
+.backSelector {
+  padding: 10px 10px;
+  font-size: larger;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  background: var(--about-background);
+}
+
+.active {
+  background: var(--primary-inverted);
+  color: var(--primary);
+}
+
+.skillsWrapper {
+  width: 100%;
+  padding: 0% 50% 0% 50%;
+  display: contents;
+  /* border-top: 2px solid var(--about-border); */
+}
+
+@media screen and (max-width: 910px){
+  .skillContainer {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 640px){
+  .devNDesSkills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .skillsWrapper {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 460px){
+  .devNDesSkills {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 380px){
+  .sectionTitle {
+    font-size: 25px;
+  }
+
+  .skillSelector {
+    scale: 0.9;
+  }
+}
+
+.tech_icons {
+  font-size: 4.5em !important;
+  margin: 15px !important;
+  padding:25px !important;
+  width: 180px;
+  height: 5px;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  /* position: relative !important; */
+   /* flex-direction:row; */
+    display: right;
+}
+.tech_icons1{
+   font-size: 4.5em !important;
+  margin: 15px !important;
+  padding:25px !important;
+  width: 220px;
+  height: 5px;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  /* position: relative !important; */
+   /* flex-direction:row; */
+    display: right;
+}
+
+.tech_icons2{
+   font-size: 4.5em !important;
+  margin: 15px !important;
+  padding:25px !important;
+  width: 300px;
+  height: 5px;
+  opacity: 0.93 !important;
+  border: 1.7px solid rgba(200, 137, 230, 0.637) !important;
+  vertical-align: middle !important;
+  text-align: center !important;
+  border-radius: 5px !important;
+  display: table !important;
+  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  overflow: hidden !important;
+  transition: all 0.4s ease 0s !important;
+  /* position: relative !important; */
+   /* flex-direction:row; */
+    display: right;
+
+}
+
+@media (max-width: 767px) {
+  .tech_icons {
+    margin: 10px !important;
+  }
+}
+
+.tech_icons:hover {
+  transform: scale(1.05) !important;
+  overflow: hidden !important;
+  border: 2.2px solid rgba(197, 115, 230, 0.883) !important;
+}
+
+/* Default styles (applies to all screen sizes) */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 5px;
+}
+
+.col {
+  width: 100%; /* Default width for small screens */
+}
+
+/* Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .col {
+    width: 50%; /* Adjust for smaller screens */
+  }
+}
+
+/* Medium devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .col {
+    width: 33.33%; /* Adjust for medium screens */
+  }
+}
+
+/* Large devices (tablets and larger, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .col {
+    width: 25%; /* Adjust for larger screens */
+  }
+}
+
+/* Extra large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .col {
+    width: 20%; /* Default width for large screens */
+  }
+}
