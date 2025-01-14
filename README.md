@@ -21,7 +21,7 @@
 - 😄 Fun fact: I waste most of my time by being a **content creator**.
 - I spend a lot of time learning new technologies, working out 🏃 on Gym 🏋️‍♂️.  
 
-🔗 **Personal Website**: [Portfolio](https://janbuca.github.io/janbuca-369/)
+🔗 **Personal Website**: [Portfolio](https://janbuca369.github.io/firew/)
 
 > _"First rule of programming: If it works, then don't touch it." - እራስህ ለራስህ_
 
