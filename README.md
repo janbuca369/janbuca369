@@ -11,7 +11,7 @@
 - 🔭 Currently, I'm working on [skyhub-technologie](https://skyhub-technologies.com/) and an internship program at [CodeAlpha](https://www.codealpha.tech/).
 - 👨‍💻 Some of my Clone & class projects:                                 
   - [Blue Moon Hotel](https://janbuca369.github.io/Blue-moon-hotel/)
-  - \[\[Netflix Clone \]\](https://netflix-clone-abdf7.web.app/)  
+  - [Netflix Clone](https://netflix-clone-abdf7.web.app/)  
   - [Amazon Clone](https://clone-ef0ad.web.app/)
   - [Apple Clone](https://apple-clone-react-4ccc8.web.app/)
 - 💬 Wanna chat? Ask me anything, except my personal life 😅 via [Instagram](https://www.instagram.com/firew_kifle/) or [telegram](https://t.me/Janbuca).
